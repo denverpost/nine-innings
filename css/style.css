@@ -759,12 +759,14 @@ a:hover, * a:hover, a:hover * {
     float:left;
     padding-right:.75em;
     display:inline-block;
+ 
 }
 .twinphoto .photoright {
     width:50%;
     float:right;
     padding-left:.75em;
     display:inline-block;
+
 }
 /*.twinphoto .photoleft .caption {
     padding-left:1em;
@@ -777,18 +779,19 @@ a:hover, * a:hover, a:hover * {
 .caption {
   	font-size:1.15em;
     width:100%;
-	line-height:1.25;
+	line-height:1.45;
     color:rgba(0,0,0,0.6);
-    padding:1em;
+    padding:.25em 1em 1em;
    	margin:0;
 	font-family:'Lora', Georgia, Times, 'Times New Roman', serif !important;
 	font-weight:400;
     font-style:italic;
     cursor:default; 
     text-indent:0;
-	background: #f8f8f8;
+        background: #f8f8f8;
+
 }
-.caption span.photog, p.credit {
+p.credit {
     text-transform:uppercase;
     font-family:'Maven Pro', Helvetica, Arial, sans-serif;
     font-weight:400;
@@ -797,6 +800,21 @@ a:hover, * a:hover, a:hover * {
    	letter-spacing:2px;
    	font-style:normal;
    	color:#000;
+}
+span.photog {
+    text-transform:uppercase;
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif;
+    font-weight:400;
+    text-transform:uppercase;
+    font-size:.65em;
+    letter-spacing:2px;
+    font-style:normal;
+    color:#000;
+    display:block;
+    width:100%;
+    text-align:right;
+    padding-bottom:.5em;
+
 }
 p.credit {
    	width:100%;
