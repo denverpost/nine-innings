@@ -317,7 +317,7 @@ h3.subheading {
     text-align:center;
     margin:.5em auto .5em;
     padding:.5em 0;
-    width:70%;
+    width:80%;
     border-bottom:1px solid rgba(0,0,0,.3);
 	color:#8b6c5b;
 }
@@ -345,13 +345,9 @@ p, .reveal-modal li {
   	color:#333;
     font-size:1.15em;
   	line-height:1.85;
-  	text-indent:1em;
-    margin-bottom:0;
+  	text-indent:0;
+    margin-bottom:1em;
     list-style:circle inside;
-}
-p {
-  	width:70%;
-	margin:0 auto;
 }
 p.lead {
 	font-family:'Lora', Georgia, Times, 'Times New Roman', serif !important;
@@ -406,33 +402,29 @@ p.blurb {
 }*/
 
 /* --------------------- Editor's Note --------------------- */
-section.inset.left.editornote {
+.editornote {
 	font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
    	background:#f8f8f8;
-    padding:0 0 2em;
-    margin:.5em 1.5em .5em -13%;
-    width: 25%;
     font-size:.8em;
+    margin-left:-1em;
     line-height:1.4;
+    padding: .5em 1em;
 }
-section.inset.left.editornote2 {
+.editornote2 {
    	display:none;
 	font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
   	background:#f8f8f8;
-    padding:0 0 2em;
-    margin:.5em 10%;
-    width: 80%;
     font-size:.8em;
     line-height:1.4;
 }
-section.inset.right h4.subheading,
-section.inset.left h4.subheading {
+.editornote h4.subheading,
+.editornote2 h4.subheading {
     font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
 	font-size:1.35em;
     width:80%;
 	color:#84002b;
 }
-section.inset h4.subheading {
+.editornote h4.subheading {
     margin:1.5em auto .5em;
 	line-height:1.35;
 	text-align:center;
@@ -447,8 +439,8 @@ section.inset p, .reverse li {
 	text-indent:0;
 	width:80%;
 }
-section.inset.left.editornote2 p {
-       width: 96%;
+.editornote2 p {
+   width: 96%;
 }
 section.inset + section.inset {
     margin-top:12em;
@@ -1204,10 +1196,10 @@ div#footer-bar ul li{
     	letter-spacing:0;
 		line-height:1.55;
   	}
-	section.inset.left.editornote {
+    .editornote {
     	display:none;
 	}
-	section.inset.left.editornote2 {
+    .editornote2 {
    		display:block;
 		margin-bottom:2em;
   	}	
@@ -1385,10 +1377,10 @@ div#footer-bar ul li{
     	letter-spacing:0;
 		line-height:1.75;
   	}
-	section.inset.left.editornote {
+    .editornote {
     	display:none;
 	}
-	section.inset.left.editornote2 {
+	.editornote2 {
    		display:block;
 		margin-bottom:2em;
   	}	
@@ -1521,10 +1513,10 @@ div#footer-bar ul li{
      	padding-top:.2em;
     	width:90%;
 	}
-		section.inset.left.editornote {
+		.editornote {
     	display:none;
 	}
-	section.inset.left.editornote2 {
+	.editornote2 {
    		display:block;
 		margin-bottom:2em;
   	}	
