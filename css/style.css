@@ -259,10 +259,7 @@ div#name2 h2 {
 }*/
 
 /* --------------------- Display Typography --------------------- */
-div.title.lowertitle {
-    margin-top: 1em;
-}
-.lowertitle h3 {
+.title h3 {
 	font-family:'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
 	font-size:1.45em;
 	line-height:1.25;
@@ -272,14 +269,15 @@ div.title.lowertitle {
 	letter-spacing: 1px;
 	margin:-1em 0 -.5em;
 }
-div.title.lowertitle h1 {
+div.title h1 {
     font-family:'Alegreya', Georgia, Times, 'Times New Roman', serif !important;
 	font-weight:900;
+    text-align: center;
 	font-size:5.5em;
     line-height:1;
 	margin:.35em auto 0;
     border-top:1px solid #aaa;
-    padding-top:.3em;
+    padding-top:.35em;
     width:85%;
 }
 div.title h2 {
@@ -296,14 +294,6 @@ div.title h2 {
     display:block;
     z-index:-1;
 }
-div.title h1 {
-    margin:8% 0 35%;
-    text-align: center;
-    line-height:1;
-    color:rgba(34,34,34,1);
-    display:block;
-    z-index:-1;
-}
 /*h1, h2, h3, h4 {
   	font-family:'PT Sans Narrow', Helvetica, Arial, sans-serif !important;
   	font-weight:700;
@@ -315,7 +305,7 @@ h3.subheading {
     font-weight:700;
     display:block;
     text-align:center;
-    margin:.5em auto .5em;
+    margin:.5em auto 1em;
     padding:.5em 0;
     width:80%;
     border-bottom:1px solid rgba(0,0,0,.3);
@@ -353,8 +343,8 @@ p.lead {
 	font-family:'Lora', Georgia, Times, 'Times New Roman', serif !important;
 	width:100%;
 	font-weight:700;
-	margin:1em auto .5em;
-	font-size:1.5em;
+	margin:1em auto 1em;
+	font-size:1.45em;
     letter-spacing:.5px;
 	line-height:1.75;
     text-indent:0;
@@ -367,7 +357,7 @@ h6.quoteout {
 	font-weight: 700;
 	font-size:1.45em;
 	line-height: 1.5;
-	margin:1em 0 1.5em 0;
+	margin:1em 0 2em;
 	text-align:left;
 	color:#5d6265;
 	word-spacing:-3px;
@@ -380,7 +370,7 @@ p.byline, p.bylinebottom{
     font-style: italic;
     text-align: center;
     text-indent:0;
-	margin:1em auto .5em;
+	margin:2em auto 1.5em;
     font-weight:400;
 }
 p.bylinebottom {
@@ -408,7 +398,7 @@ p.blurb {
     font-size:.8em;
     margin:.5em 0 0 -1em;
     line-height:1.4;
-    padding: .5em 1em;
+    padding: .75em 1.5em;
 }
 .editornote2 {
    	display:none;
@@ -416,19 +406,26 @@ p.blurb {
   	background:#f8f8f8;
     font-size:.8em;
     line-height:1.4;
-}
-.editornote h4.subheading,
-.editornote2 h4.subheading {
-    font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
-	font-size:1.35em;
-    width:80%;
-	color:#84002b;
+    padding: .5em 1.5em;
 }
 .editornote h4.subheading {
+    font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
+	font-size:1.35em;
+    line-height:1.35;
+    padding:.5em 0;
+    width:90%;
+	color:#84002b;
+    border-bottom:1px solid rgba(0,0,0,.3);
+}
+.editornote2 h4.subheading {
+    font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
+    font-size:1.35em;
+    width:80%;
+    color:#84002b;
     margin:.5em auto;
 	line-height:1.35;
 	text-align:center;
-     border-bottom:1px solid rgba(0,0,0,.3);
+    border-bottom:1px solid rgba(0,0,0,.3);
     padding:.5em 0;
     width:90%;
 }
@@ -440,12 +437,12 @@ section.inset p, .reverse li {
 	width:80%;
 }
 .editornote2 p {
-   width: 96%;
+   text-align:center;
 }
 section.inset + section.inset {
     margin-top:12em;
 }
-section.inset div.title.lowertitle h1 {
+section.inset div.title h1 {
     margin:15% auto;
     border-bottom:1px solid #aaa;
     padding-bottom:12%;
@@ -501,13 +498,6 @@ section.inset.right.modalload img {
 .infobox{
 	margin-top:100px;
 	height:auto;
-	}
-.reveal-modal li {
-  	color:#333;
-    font-size:1.5em;
-    line-height:2;
-    margin-bottom:1.6em;
-    list-style:circle inside;
 }
 .infobox p, .infobox li     {
     width:100%;
@@ -760,12 +750,6 @@ a:hover, * a:hover, a:hover * {
     display:inline-block;
 
 }
-/*.twinphoto .photoleft .caption {
-    padding-left:1em;
-}
-.twinphoto .photoright .caption {
-    padding-right:1em;
-}*/
 
 /* --------------------- Captions --------------------- */
 .caption {
@@ -780,7 +764,7 @@ a:hover, * a:hover, a:hover * {
     font-style:italic;
     cursor:default; 
     text-indent:0;
-        background: #f8f8f8;
+    background: #f8f8f8;
 
 }
 p.credit {
@@ -791,7 +775,7 @@ p.credit {
    	font-size:.65em;
    	letter-spacing:2px;
    	font-style:normal;
-   	color:#000;
+   	color:rgba(0,0,0,0.85);
 }
 span.photog {
     text-transform:uppercase;
@@ -1157,189 +1141,24 @@ div#footer-bar ul li{
 	 list-style-type: none;
  }
 
-/** iPhone (potrait and landscape) **/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
-
-	body {
-		background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
-		background-size: 20px 20px;
-	}
-	.flag-header {
-		display:none;
-	}		
-	div.title.lowertitle {
-		margin-top: .3em;
-	}
-	.lowertitle h3 {
- 		font-size:1.2em;
-	}
-	div.title.lowertitle h1 {
- 		font-size:2.5em;
- 		margin:.4em auto 0;
-     	padding-top:.2em;
-    	width:90%;
-	}
-	p.byline, p.bylinebottom{
-	    font-size:.95em;
-  	  	line-height:1.35;
-   	 	margin:.5em auto 1em;
- 	}
-	.caption {
-  		font-size:.95em;
-	}
-	p, .reveal-modal li {
-  		line-height:1.45;
-	}
-	p.lead {
-    	width:90%;
-		font-size:1.1em;
-    	letter-spacing:0;
-		line-height:1.55;
-  	}
+@media only screen and (max-width: 1024px) {
+    div.title h1 {
+        font-size:4.5em;
+        margin:.3em auto;
+        padding-top:.2em;
+        width:90%;
+    }
     .editornote {
-    	display:none;
-	}
+        display:none;
+    }
     .editornote2 {
-   		display:block;
-		margin-bottom:2em;
-  	}	
-	p, .reveal-modal li {
-  		font-size:.95em;
-  	}
-	p {
-  		width:90%;
-	}
-	.centerphoto {
-     	margin:1em auto;
-	}
-	h3.subheading {
-		font-size:1.35em;
-	 	margin:.25em auto .25em;
-    	padding:.25em 0;
-    	width:80%;
-	}
-	h3.subheading.external{
-    	font-size:1.25em;
-     	margin:.5em auto 1em;
-   	}
-	h3.subheading.internal {
-  		font-size:1.25em;
-    	margin:1em auto .5em;
-   	}
-	.caption span.photog, p.credit {
-   		font-size:.6em;
- 		letter-spacing:1px;
- 	}
-	.centervideo {
-    	margin:.5em 0 .25em;
-	}
-	.row.solo {
-    	margin-bottom: 1.5em;
-	}
-	.photorow {
-    	margin:2em 0 0;
-    	padding:0;
-   	 	width:100%;
-	}
-	.twinphoto .photoleft {
-    	width:80%;
-    	float:none;
-	  	padding-right:0;
-   		margin:10% auto;
-	   	display:block;
-	}
-	.twinphoto .photoright {
-    	width:80%;
-   		float:none;
-	  	padding-left:0;
-    	margin:10% auto;
-	    display:block;
-	}
-	h6.quoteout {
-  		font-size:1.2em;
-		margin:1em .5em;
-		text-align:center;
-	}
-	.tiptonext{
-	 	width:80%;
-		font-size:1.3em;
-    	line-height:1.5;
-		margin:0 10%;
-  	}
-	.tiptonext img{
-		height:16px;
-   	}
-	.centergallery button.slick-next {
-   		background-image:url(../img/nextButton3.svg);
-		background-position:80% center;
-		background-size:30%;
-    	width:22%;
-  	}
-	.centergallery button.slick-prev {
-   		background-image:url(../img/previousButton3.svg);  		
-		background-position:20% center;
-		background-size:30%;
-    	width:22%;
-	}
-	.vid-embed-play {
-     	height:2em;
-    	width:3em;
-   		border:2px solid rgba(255,255,255,0.8);
-  	}
-	.vid-embed-play .playtext,
-	.vid-embed-play .playicon {
-    	top:10%;
-   	}
-	.vid-embed-play .playicon:after {
-		font-size: 1.65em;
-	}
-	.vid-embed-play .playtext:after {
-    	font-size: .95em;
- 	}
-	.closer div#second-inning-teaser h2 {
-		margin-left:50%;
-		width:50%;
-		padding:20px;
-		font-size:1.5em;
-		background-position:50% 90%;
-		letter-spacing:1px;
- 	}
-	.closer div#second-inning-teaser img{
-		height:16px;
-		padding-bottom:2px;
-	}
-	div#footer-bar p {
-    	width:30%;
-	}
-	div#footer-bar ul.social {
-      background:transparent;
-	  width:40%;
-	  left:35%;
-	}
-	.infobox p, .infobox li     {
-    	font-size:.95em;
-		line-height:1.35;
-	}
-	.infobox p em, .infobox li em    {
-		font-size:.85em;
-	}
-	.infobox p.category, .infobox li.category     {
-    	line-height:1.15;
-	}
-	.reveal-modal{
-		width:80%;
-		margin-left:10%;
-	}
-	.reveal-modal .close-reveal-modal {
-	    top:0.25em;
-    	right:0.25em;
-    	width:.85em;
-    	height:.85em;
-	 }
+        display:block;
+        margin-bottom:2em;
+    }
 }
 
 /** iPhone (potrait and landscape) **/
-@media only screen and (min-width : 481px) and (max-width : 768px) {
+@media only screen and (max-width: 768px) {
 
 	body {
 		background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
@@ -1348,56 +1167,42 @@ div#footer-bar ul li{
 	.flag-header {
 		display:none;
 	}		
-	div.title.lowertitle {
+	div.title {
 		margin-top: .3em;
 	}
-	.lowertitle h3 {
- 		font-size:1.2em;
-	}
-	div.title.lowertitle h1 {
- 		font-size:2.5em;
+	div.title h1 {
+ 		font-size:3.25em;
  		margin:.4em auto 0;
      	padding-top:.2em;
     	width:90%;
 	}
-	p.byline, p.bylinebottom{
-	    font-size:.95em;
-  	  	line-height:1.35;
-   	 	margin:.5em auto 1em;
- 	}
+    .title h3 {
+        font-size:1.2em;
+    }
+    p.byline, p.bylinebottom{
+        font-size:1em;
+        line-height:1.35;
+    }
 	.caption {
-  		font-size:.95em;
-	}
-	p, .reveal-modal li {
-  		line-height:1.65;
+  		font-size:1em;
 	}
 	p.lead {
-    	width:90%;
 		font-size:1.1em;
     	letter-spacing:0;
 		line-height:1.75;
   	}
+    p, .reveal-modal li {
+        font-size:1.1em;
+        line-height:1.65;
+    }
     .editornote {
     	display:none;
-	}
-	.editornote2 {
-   		display:block;
-		margin-bottom:2em;
-  	}	
-	p, .reveal-modal li {
-  		font-size:.95em;
-  	}
-	p {
-  		width:90%;
 	}
 	.centerphoto {
      	margin:1em auto;
 	}
 	h3.subheading {
 		font-size:1.35em;
-	 	margin:.25em auto .25em;
-    	padding:.25em 0;
-    	width:80%;
 	}
 	h3.subheading.external{
     	font-size:1.25em;
@@ -1407,26 +1212,21 @@ div#footer-bar ul li{
   		font-size:1.25em;
     	margin:1em auto .5em;
    	}
-	.caption span.photog, p.credit {
-   		font-size:.6em;
- 		letter-spacing:1px;
- 	}
+    .caption span.photog, p.credit {
+        font-size:.75em;
+        letter-spacing:1px;
+    }
 	.centervideo {
     	margin:.5em 0 .25em;
 	}
 	.row.solo {
     	margin-bottom: 1.5em;
 	}
-	.photorow {
-    	margin:2em 0 0;
-    	padding:0;
-   	 	width:100%;
-	}
-	h6.quoteout {
-  		font-size:1.2em;
-		margin:1em .5em;
-		text-align:center;
-	}
+    h6.quoteout {
+        font-size:1.2em;
+        margin:1em .5em 2em;
+        text-align:center;
+    }
 	.tiptonext{
 	 	width:80%;
 		font-size:1.3em;
@@ -1470,7 +1270,6 @@ div#footer-bar ul li{
 		font-size:1.5em;
 		background-position:86% 50%;
 		letter-spacing:1px;
-
  	}
 	.closer div#second-inning-teaser img{
 		height:16px;
@@ -1480,7 +1279,7 @@ div#footer-bar ul li{
     	width:33%;
 	}
 	div#footer-bar ul.social {
-      width:33%;
+        width:33%;
 	}
 	.infobox p, .infobox li     {
     	font-size:.95em;
@@ -1505,24 +1304,75 @@ div#footer-bar ul li{
 	 }
 }
 
-@media only screen and (min-width : 769px) and (max-width : 1024px) {
-
-	div.title.lowertitle h1 {
- 		font-size:4.5em;
- 		margin:.3em auto;
-     	padding-top:.2em;
-    	width:90%;
-	}
-		.editornote {
-    	display:none;
-	}
-	.editornote2 {
-   		display:block;
-		margin-bottom:2em;
-  	}	
-	.photorow {
-    	margin:2em 0 0;
-    	padding:0;
-   	 	width:100%;
-	}
+/** iPhone (potrait and landscape) **/
+@media only screen and (max-width: 480px) {
+    body {
+        background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
+        background-size: 20px 20px;
+    }
+    .flag-header {
+        display:none;
+    }       
+    div.title {
+        margin-top: .5em;
+    }
+    .title h3 {
+        font-size:1.1em;
+    }
+    div.title h1 {
+        font-size:2.25em;
+        margin:.4em auto 0;
+        padding-top:.5em;
+        width:90%;
+    }
+    p.lead {
+        font-size:1.1em;
+        letter-spacing:0;
+        line-height:1.55;
+    }
+    p, .reveal-modal li {
+        font-size:1.05em;
+        line-height:1.65;
+    }
+    .centerphoto {
+        margin:1em auto;
+    }
+    h3.subheading {
+        font-size:1.35em;
+    }
+    h3.subheading.external{
+        font-size:1.25em;
+        margin:.5em auto 1em;
+    }
+    h3.subheading.internal {
+        font-size:1.25em;
+        margin:1em auto .5em;
+    }
+    .twinphoto .photoleft,
+    .twinphoto .photoright {
+        width:100%;
+        margin:0 auto 2em;
+        float:none;
+        padding:0;
+    }
+    .closer div#second-inning-teaser h2 {
+        margin-left:50%;
+        width:50%;
+        padding:20px;
+        font-size:1.5em;
+        background-position:50% 90%;
+        letter-spacing:1px;
+    }
+    .closer div#second-inning-teaser img{
+        height:16px;
+        padding-bottom:2px;
+    }
+    div#footer-bar p {
+        width:30%;
+    }
+    div#footer-bar ul.social {
+        background:transparent;
+        width:40%;
+        left:35%;
+    }
 }
