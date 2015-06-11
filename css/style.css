@@ -1,7 +1,6 @@
 body {
 	background-color:rgba(255,255,255,1);
     background-color:#fff;
-    /*background-image:url('../img/pinstripe.gif');*/
 	background-image: linear-gradient(90deg, transparent 96%, rgba(171,171,205,.2) 4%);
 	background-size: 30px 30px;
 	z-index:1;
@@ -87,35 +86,6 @@ body {
 #part1intro {
     background-image:url('../img/inning-one-header.jpg');
 }
-#part2intro {
-    background-image:url('../img/opener-part2.jpg');
-}
-#part3intro {
-    background-image:url('../img/opener-part3.jpg');
-}
-/*.opener div#title {
-    position: absolute;
-    z-index: -1;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    text-align:center;
-}
-.opener div#title h2 {
-    text-transform: uppercase;
-    position: absolute;
-    bottom:0;
-    font-size:12.5em;
-    text-align:center;
-    width:100%;
-    line-height:.55;
-    color:#f9f9f9;
-    font-weight: 700;
-    letter-spacing:-2px;
-    word-spacing:12px;
-    text-shadow: 0px 0px 5px rgba(0,0,0,0.5);
-}*/
 
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
@@ -204,14 +174,6 @@ nav.top-bar {
     height:1em;
     width:1em;
 }
-/*.top-bar .toggle-topbar.menu-icon a span {
-     font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
-    letter-spacing:.05em;
-	text-transform:none;
-    font-weight:400;
-	text-transform:uppercase;
-	text-decoration:none;
-}*/
 
 /* ----------------------------- DP Logo and Title ----------------------------- */ 
 li.name {
@@ -1192,14 +1154,6 @@ div#footer-bar ul li{
 		background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
 		background-size: 20px 20px;
 	}
-	/*.opener div#title h1 {
-       	font-size:2em;
-		letter-spacing:0;
-		bottom:5%;
-	}
-	.opener div#title h1 span{
-        font-size:50%;
-	}	*/
 	.flag-header {
 		display:none;
 	}		
@@ -1381,14 +1335,6 @@ div#footer-bar ul li{
 		background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
 		background-size: 20px 20px;
 	}
-	/*.opener div#title h1 {
-       	font-size:2em;
-		letter-spacing:0;
-		bottom:5%;
-	}
-	.opener div#title h1 span{
-        font-size:50%;
-	}	*/
 	.flag-header {
 		display:none;
 	}		
@@ -1466,20 +1412,6 @@ div#footer-bar ul li{
     	padding:0;
    	 	width:100%;
 	}
-/*	.twinphoto .photoleft {
-    	width:80%;
-    	float:none;
-	  	padding-right:0;
-   		margin:10% auto;
-	   	display:block;
-	}
-	.twinphoto .photoright {
-    	width:80%;
-   		float:none;
-	  	padding-left:0;
-    	margin:10% auto;
-	    display:block;
-	}*/
 	h6.quoteout {
   		font-size:1.2em;
 		margin:1em .5em;
