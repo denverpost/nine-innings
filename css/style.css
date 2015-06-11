@@ -367,9 +367,9 @@ h6.quoteout {
 	font-weight: 700;
 	font-size:1.45em;
 	line-height: 1.5;
-	margin:1.5em 0;
+	margin:1em 0 1.5em 0;
 	text-align:left;
-	color:#5b6273;
+	color:#5d6265;
 	word-spacing:-3px;
 }
 p.byline, p.bylinebottom{
