@@ -354,9 +354,9 @@ p.lead {
 	width:100%;
 	font-weight:700;
 	margin:1em auto .5em;
-	font-size:1.3em;
+	font-size:1.5em;
     letter-spacing:.5px;
-	line-height:2;
+	line-height:1.75;
     text-indent:0;
 }
 h6.quoteout {
@@ -369,7 +369,7 @@ h6.quoteout {
 	line-height: 1.5;
 	margin:1.5em 0;
 	text-align:left;
-	color:#000;
+	color:#5b6273;
 	word-spacing:-3px;
 }
 p.byline, p.bylinebottom{
@@ -406,7 +406,7 @@ p.blurb {
 	font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
    	background:#f8f8f8;
     font-size:.8em;
-    margin-left:-1em;
+    margin:.5em 0 0 -1em;
     line-height:1.4;
     padding: .5em 1em;
 }
@@ -425,7 +425,7 @@ p.blurb {
 	color:#84002b;
 }
 .editornote h4.subheading {
-    margin:1.5em auto .5em;
+    margin:.5em auto;
 	line-height:1.35;
 	text-align:center;
      border-bottom:1px solid rgba(0,0,0,.3);
