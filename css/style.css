@@ -258,6 +258,7 @@ div#name2 h2 {
     text-align: center;
     color:#8b6c5b;
 	letter-spacing: 1px;
+    word-spacing:-3px;
 	margin:-1em 0 -.5em;
 }
 div.title h1 {
