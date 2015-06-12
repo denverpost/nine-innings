@@ -361,14 +361,14 @@ p.byline, p.bylinebottom{
     font-style: italic;
     text-align: center;
     text-indent:0;
-	margin:2em auto 1.5em;
+	margin:1.25em auto;
     font-weight:400;
 }
 p.bylinebottom {
    	font-size:1em;
     width:100%;
     text-align:center;
-	margin:2em 0;
+	margin:1.5em 0;
 }
 /*
 p.blurb {
