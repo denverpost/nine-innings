@@ -291,9 +291,9 @@ div.title h2 {
 }
 */
 h3.subheading {
-	font-family:'Lora', Georgia, Times, 'Times New Roman', serif !important;
-	font-size:1.85em;
-    font-weight:700;
+	font-family:'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
+    font-size:1.85em;
+    font-weight:400;
     display:block;
     text-align:center;
     margin:.5em auto 1em;
