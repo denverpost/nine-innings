@@ -1305,6 +1305,10 @@ div#footer-bar ul li{
     .closer div#next-inning-teaser h2 {
        font-size:2em;
     }
+    .inset-video-right {
+         padding-right:15%;
+    }
+
     
 }
 
@@ -1350,6 +1354,14 @@ div#footer-bar ul li{
     h3.subheading.internal {
         font-size:1.25em;
         margin:1em auto .5em;
+    }
+    .photorow{
+        margin-bottom:0;
+    }
+     .inset-video-right {
+        width:80%;
+        margin:1em 10% 3em;
+        padding-right:0;
     }
     .twinphoto .photoleft,
     .twinphoto .photoright {
