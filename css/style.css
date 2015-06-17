@@ -86,7 +86,9 @@ body {
 #part1intro {
     background-image:url('../img/inning-one-header.jpg');
 }
-
+#part2intro {
+    background-image:url('../img/inning-two-header.jpg');
+}
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
     z-index:99;
@@ -1021,10 +1023,10 @@ a.startVideo:hover {
     background-attachment: absolute;
 }
 #teaserphoto2{
-	background-image:url('../img/FPO2.jpg');
+	background-image:url('../img/inning-two-obi-001.jpg');
 	width:50%;
 }
-.closer div#second-inning-teaser {
+.closer div#next-inning-teaser {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -1033,7 +1035,7 @@ a.startVideo:hover {
     text-align:center;
 	opacity:1.0;
 }
-.closer div#second-inning-teaser h2 {
+.closer div#next-inning-teaser h2 {
     position: absolute;
     margin-left:50%;
 	width:50%;
@@ -1047,13 +1049,13 @@ a.startVideo:hover {
 	background-size:20%;
 	font-family:'Alegreya', Georgia, Times, 'Times New Roman', serif !important;
 	font-weight:900;
-	font-size:3.5em;
+	font-size:3em;
     text-align:left;
    	line-height:1;
     color:#f9f9f9;
 	letter-spacing:2px;
 }
-.closer div#second-inning-teaser h2 span {
+.closer div#next-inning-teaser h2 span {
    	display: block;
   	font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
  	font-weight:400;
@@ -1064,14 +1066,14 @@ a.startVideo:hover {
     color:#c47e41;
    	letter-spacing:1px;
 }
-.closer div#second-inning-teaser img{
+.closer div#next-inning-teaser img{
 	height:20px;
 	padding-bottom:2px;
 }
-.closer div#second-inning-teaser:hover{
+.closer div#next-inning-teaser:hover{
 	opacity:0.8;
 }
-.closer div#second-inning-teaser h2 a:hover{
+.closer div#next-inning-teaser h2 a:hover{
   	color:#ffb368
 }
 .centergallery button.slick-next {
@@ -1136,7 +1138,7 @@ div#footer-bar ul li{
     text-transform:uppercase;
     list-style-type: none;
  }
-
+/** ---------------------------------------------- 1024 ---------------------------------------------- **/
 @media only screen and (max-width: 1024px) {
     div.title h1 {
         font-size:4.5em;
@@ -1150,9 +1152,13 @@ div#footer-bar ul li{
         display:block;
         margin-bottom:2em;
     }
+    .closer div#next-inning-teaser h2 {
+        font-size:2.45em;
+    }
 }
 
-/** iPhone (potrait and landscape) **/
+/** ---------------------------------------------- 768 ---------------------------------------------- **/
+
 @media only screen and (max-width: 768px) {
 	body {
 		background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
@@ -1256,18 +1262,7 @@ div#footer-bar ul li{
 	.vid-embed-play .playtext:after {
     	font-size: .95em;
  	}
-	.closer div#second-inning-teaser h2 {
-		margin-left:50%;
-		width:50%;
-		padding:20px 20% 20px 20px;
-		font-size:1.5em;
-		background-position:86% 50%;
-		letter-spacing:1px;
- 	}
-	.closer div#second-inning-teaser img{
-		height:16px;
-		padding-bottom:2px;
-	}
+    
 	div#footer-bar p {
     	width:33%;
 	}
@@ -1284,7 +1279,15 @@ div#footer-bar ul li{
 	.infobox p.category, .infobox li.category     {
     	line-height:1.15;
 	}
-	.reveal-modal{
+    .closer div#next-inning-teaser h2 {
+       padding:20px 40px 20px 20px;
+        font-size:2.45em;
+        line-height:1.15;
+        background-position:right 50%;
+        background-size:15%;
+        letter-spacing:1px;
+    }
+ 	.reveal-modal{
 		width:80%;
 		margin-left:10%;
 		left:0;
@@ -1296,8 +1299,16 @@ div#footer-bar ul li{
     	height:.85em;
 	 }
 }
+/** ---------------------------------------------- 640 ---------------------------------------------- **/
+@media only screen and (max-width: 640px) {
 
-/** iPhone (potrait and landscape) **/
+    .closer div#next-inning-teaser h2 {
+       font-size:2em;
+    }
+    
+}
+
+/** ---------------------------------------------- 480 ---------------------------------------------- **/
 @media only screen and (max-width: 480px) {
     body {
         background-image: linear-gradient(90deg, transparent 95%, rgba(171,171,205,.2) 5%);
@@ -1347,17 +1358,9 @@ div#footer-bar ul li{
         float:none;
         padding:0;
     }
-    .closer div#second-inning-teaser h2 {
-        margin-left:50%;
-        width:50%;
-        padding:20px;
-        font-size:1.5em;
-        background-position:50% 90%;
-        letter-spacing:1px;
-    }
-    .closer div#second-inning-teaser img{
-        height:16px;
-        padding-bottom:2px;
+   .closer div#next-inning-teaser h2 {
+        font-size:1.25em;
+        line-height:1.15;
     }
     div#footer-bar p {
         width:30%;
