@@ -91,6 +91,8 @@ body {
 }
 #part3intro {
     background-image:url('../img/inning-three-header.jpg');
+    background-position:90% 90%;
+    
 }
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
