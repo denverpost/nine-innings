@@ -588,7 +588,7 @@ section.inset.right.chart h3.subheading {
 
 /* --------------------- Highlight Chart --------------------- */
 #highlight-chart{
-    margin:-2em 0 4em;
+    margin:-3em 0 6em;
 }
 #highlight-chart p{
     font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
