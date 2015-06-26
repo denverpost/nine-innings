@@ -591,14 +591,17 @@ section.inset.right.chart h3.subheading {
     margin:-2em 0 4em;
 }
 #highlight-chart p{
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     margin-bottom:0;
-    padding:0 20px;
+    padding:0 10px;
+    color:rgba(0,0,0,0.5);
 }
 #highlight-chart .subheading2{
-    padding:0 20px;
-    font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
+    padding:0 10px;
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-size:1.45em;
 }
+
 /* --------------------- Modal Boxes --------------------- */
 section.inset.right.modalload img {
     width:50%;
@@ -1355,7 +1358,12 @@ div#footer-bar ul li{
          padding-right:15%;
     }
 
-    
+    #highlight-chart .subheading2{
+        font-size:1.25em;
+    }
+    #highlight-chart img{
+        margin-top:2em;
+    }
 }
 
 /** ---------------------------------------------- 480 ---------------------------------------------- **/
