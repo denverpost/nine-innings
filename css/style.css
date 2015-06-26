@@ -601,6 +601,9 @@ section.inset.right.chart h3.subheading {
     font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-size:1.45em;
 }
+#highlight-chart img{
+    width:80%;
+}
 
 /* --------------------- Modal Boxes --------------------- */
 section.inset.right.modalload img {
@@ -1363,6 +1366,7 @@ div#footer-bar ul li{
     }
     #highlight-chart img{
         margin-top:2em;
+        width:45%;
     }
 }
 
@@ -1433,4 +1437,11 @@ div#footer-bar ul li{
         width:40%;
         left:35%;
     }
+}
+/** ---------------------------------------------- 360 ---------------------------------------------- **/
+@media only screen and (max-width: 360px) {
+    #highlight-chart img{
+        width:65%;
+    }
+
 }
