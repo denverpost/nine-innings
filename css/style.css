@@ -813,7 +813,7 @@ a:hover, * a:hover, a:hover * {
 }
 p.credit {
     text-transform:uppercase;
-    font-family:'Maven Pro', Helvetica, Arial, sans-serif;
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-weight:400;
    	text-transform:uppercase;
    	font-size:.65em;
@@ -823,7 +823,7 @@ p.credit {
 }
 span.photog {
     text-transform:uppercase;
-    font-family:'Maven Pro', Helvetica, Arial, sans-serif;
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-weight:400;
     text-transform:uppercase;
     font-size:.65em;
@@ -1021,7 +1021,7 @@ a.startVideo:hover {
 }
 .vid-embed-play .playtext,
 .vid-embed-play .playicon {
-    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif !important;
     text-transform: uppercase;
     display:block;
     position: absolute;
