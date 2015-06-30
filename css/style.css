@@ -92,7 +92,10 @@ body {
 #part3intro {
     background-image:url('../img/inning-three-header.jpg');
     background-position:center 85%;
-    
+}
+#part4intro {
+    background-image:url('../img/inning-four-header.jpg');
+    background-position:center top;
 }
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
@@ -266,7 +269,7 @@ div#name2 h2 {
     color:#8b6c5b;
 	letter-spacing: 1px;
     word-spacing:-3px;
-	margin:-1em 0 -.5em;
+	margin:0 0 -.5em;
 }
 div.title h1 {
     font-family:'Alegreya', Georgia, Times, 'Times New Roman', serif !important;
