@@ -1081,6 +1081,10 @@ a.startVideo:hover {
     background-image:url('../img/inning-three-eaton-001.jpg');
     width:50%;
 }
+#teaserphoto4{
+    background-image:url('../img/inning-four-rotola-001.jpg');
+    width:50%;
+}
 .closer div#next-inning-teaser {
     position: absolute;
     bottom: 0;
