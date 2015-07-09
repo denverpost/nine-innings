@@ -892,6 +892,7 @@ p.credit {
 .centergallery .caption {
     /*font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-style: normal;*/
+    font-size:1.1em;
     letter-spacing:.05em;
     color:#f9f9f9;
 	background:#000;
