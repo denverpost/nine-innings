@@ -1455,7 +1455,10 @@ div#footer-bar ul li{
     .photorow{
         margin-bottom:0;
     }
-     .inset-video-right {
+    ..centergallery{
+        display:hidden;
+    }
+    .inset-video-right {
         width:80%;
         margin:1em 10% 3em;
         padding-right:0;
