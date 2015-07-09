@@ -909,7 +909,7 @@ p.credit {
     top:0;
     right:0;
 	background:rgba(255,255,255,1.0);
-    background-image:url(../img/nextButton.svg);
+    background-image:url(../img/nextButton2.svg);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:20%;
@@ -927,7 +927,7 @@ p.credit {
     top:0;
     left:0;
     background:rgba(255,255,255,1.0);
-    background-image:url(../img/previousButton.svg);
+    background-image:url(../img/previousButton2.svg);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:20%;
@@ -1144,7 +1144,7 @@ a.startVideo:hover {
 .closer div#next-inning-teaser h2 a:hover{
   	color:#ffb368
 }
-.centergallery button.slick-next {
+/*.centergallery button.slick-next {
     position:absolute;
     top:0;
     right:0;
@@ -1160,7 +1160,7 @@ a.startVideo:hover {
 	z-index:1;
 	background-color:transparent;
 	opacity:0.35;
-}
+}*/
 
 /* --------------------- Footer --------------------- */
 p.small {
