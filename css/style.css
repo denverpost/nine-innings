@@ -69,8 +69,16 @@ body {
 #cards li div.clear {
     padding-bottom:135%;
 }
+[class*="block-grid-"]>li {
+    padding-bottom:2rem;
+}
+#cards table {
+    width:100%;
+}
 #cards table tr th, #cards table tr td {
-    padding:.45rem .625rem;
+    padding:.15rem .25rem;
+    text-align:center;
+    font-size:.675rem;
 }
 
 /* ----------------------------- Splash Image ----------------------------- */ 
