@@ -66,6 +66,10 @@ body {
     margin:0 auto;
 }
 
+#cards li div.clear {
+    padding-bottom:135%;
+}
+
 /* ----------------------------- Splash Image ----------------------------- */ 
 .opener {
     background-position:center;
@@ -95,6 +99,10 @@ body {
 }
 #part4intro {
     background-image:url('../img/inning-four-header.jpg');
+    background-position:center top;
+}
+#part5intro {
+    background-image:url('../img/inning-five-hawkins-banner.jpg');
     background-position:center top;
 }
 /* ----------------------------- Nav Bar ----------------------------- */ 
@@ -887,6 +895,7 @@ p.credit {
 }
 .centergallery img {
     margin:0;
+    width:100%;
 }
 .centergallery button span {
     display:none;
@@ -900,7 +909,7 @@ p.credit {
     top:0;
     right:0;
 	background:rgba(255,255,255,1.0);
-    background-image:url(../img/nextButton2.svg);
+    background-image:url(../img/nextButton.svg);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:20%;
@@ -918,7 +927,7 @@ p.credit {
     top:0;
     left:0;
     background:rgba(255,255,255,1.0);
-    background-image:url(../img/previousButton2.svg);
+    background-image:url(../img/previousButton.svg);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:20%;
@@ -1102,7 +1111,7 @@ a.startVideo:hover {
 	height:100%;
 	top:0;
    	background:#000;
-    background-image:url(../img/nextButton2.svg);
+    background-image:url(../img/nextButton.svg);
 	background-repeat:no-repeat;
 	background-position:90% 50%;
 	background-size:20%;
@@ -1140,7 +1149,7 @@ a.startVideo:hover {
     top:0;
     right:0;
 	background:rgba(255,255,255,1.0);
-    background-image:url(../img/nextButton2.svg);
+    background-image:url(../img/nextButton.svg);
 	background-repeat:no-repeat;
 	background-position:50% 50%;
 	background-size:20%;
