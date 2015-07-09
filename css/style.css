@@ -1094,6 +1094,10 @@ a.startVideo:hover {
     background-image:url('../img/inning-four-rotola-001.jpg');
     width:50%;
 }
+#teaserphoto5{
+    background-image:url('../img/inning-five-hawkins-002.jpg');
+    width:50%;
+}
 .closer div#next-inning-teaser {
     position: absolute;
     bottom: 0;
@@ -1111,7 +1115,7 @@ a.startVideo:hover {
 	height:100%;
 	top:0;
    	background:#000;
-    background-image:url(../img/nextButton.svg);
+    background-image:url(../img/nextButton2.svg);
 	background-repeat:no-repeat;
 	background-position:90% 50%;
 	background-size:20%;
