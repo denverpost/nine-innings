@@ -879,6 +879,9 @@ p.credit {
     padding:0 2.5em 2em;
 }
 .centergallery .caption {
+    /*font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
+    font-style: normal;*/
+    letter-spacing:.05em;
     color:#f9f9f9;
 	background:#000;
 }
