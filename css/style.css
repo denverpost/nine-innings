@@ -80,6 +80,28 @@ body {
     text-align:center;
     font-size:.675rem;
 }
+#cards .cardsingle {
+    cursor:pointer;
+}
+#cards .cardsingle .flipover {
+    opacity:0;
+    transition: opacity .25s ease-in-out;
+    -moz-transition: opacity .25s ease-in-out;
+    -webkit-transition: opacity .25s ease-in-out;
+    position: absolute;
+    right:5%;
+    bottom:2.5%;
+    z-index:10;
+    width:1em;
+    height:2em;
+    background-image:url('../img/icon-flipover.png');
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#cards .cardsingle:hover .flipover {
+    opacity:.6;
+}
 
 /* ----------------------------- Splash Image ----------------------------- */ 
 .opener {
