@@ -615,8 +615,9 @@ section.inset.right.chart h3.subheading {
 }
 
 
-/* --------------------- Highlight Chart --------------------- */
-#highlight-chart{
+/* --------------------- Charts --------------------- */
+#highlight-chart,
+#latroy-charts {
     margin:-3em 0 6em;
 }
 #highlight-chart p{
@@ -632,6 +633,18 @@ section.inset.right.chart h3.subheading {
 }
 #highlight-chart img{
     width:80%;
+}
+
+#latroy-charts p{
+    font-family:'Lora', Georgia, Times, 'Times New Roman', serif !important;
+     margin-bottom:0;
+    padding:0 10px;
+    color:rgba(0,0,0,0.5);
+}
+
+#latroy-charts img{
+    width:100%;
+    padding:1em;
 }
 
 /* --------------------- Modal Boxes --------------------- */
@@ -1393,6 +1406,14 @@ div#footer-bar ul li{
     	width:.85em;
     	height:.85em;
 	 }
+     #latroy-charts{
+        margin:1em 0 .5em;
+    }
+     #latroy-charts h3,
+     #latroy-charts p{
+        width:100%;
+    }
+
 }
 /** ---------------------------------------------- 640 ---------------------------------------------- **/
 @media only screen and (max-width: 640px) {
