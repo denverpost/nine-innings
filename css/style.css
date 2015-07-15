@@ -138,6 +138,10 @@ body {
     background-image:url('../img/inning-five-hawkins-banner.jpg');
     background-position:center top;
 }
+#part6intro {
+    background-image:url('../img/inning-six-header.jpg');
+    background-position:center top;
+}
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
     z-index:99;
@@ -1157,6 +1161,11 @@ a.startVideo:hover {
     width:50%;
     background-position:top;
 }
+#teaserphoto6{
+    background-image:url('../img/inning-six-meyer-001.jpg');
+    width:50%;
+    background-position:top right;
+}
 .closer div#next-inning-teaser {
     position: absolute;
     bottom: 0;
@@ -1434,6 +1443,9 @@ div#footer-bar ul li{
      #latroy-charts p{
         width:100%;
     }
+    #teaserphoto6{
+    background-position:top center;
+}
 
 }
 /** ---------------------------------------------- 640 ---------------------------------------------- **/
