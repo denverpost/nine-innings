@@ -444,6 +444,10 @@ p.instructions {
     text-align: center;
     margin-top:-1em;
 }
+p.slideshow-intro{
+    font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
+    
+}
 
 
 /*
