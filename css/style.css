@@ -928,6 +928,11 @@ p.credit {
    	letter-spacing:2px;
    	font-style:normal;
    	color:rgba(0,0,0,0.85);
+    width:100%;
+    text-align:right;
+    margin:0 0 2em;
+    position:relative;
+    top:-10px;
 }
 span.photog {
     text-transform:uppercase;
@@ -942,13 +947,6 @@ span.photog {
     width:100%;
     text-align:right;
     padding-bottom:.5em;
-}
-p.credit {
-   	width:100%;
-   	text-align:right;
-   	margin:0 0 2em;
-	position:relative;
-	top:-10px;
 }
 .caption span.capwarning {
     color:rgba(0,0,0,0.5);
