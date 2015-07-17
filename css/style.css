@@ -447,6 +447,7 @@ p.instructions {
 p.slideshow-intro{
     font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
     font-size:1em;
+    margin:0 2.5em 2em;
 }
 
 
@@ -562,6 +563,10 @@ section.inset div.title h1 {
     width:100%;
     padding:0;
     margin:1.5em auto 3em;
+}
+.tintbox{
+    background-color:#f8f8f8;
+    margin:2em 0 4em;
 }
 
 /* --------------------- Generic Inserts --------------------- */
