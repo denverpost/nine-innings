@@ -357,6 +357,11 @@ h3.subheading {
     border-bottom:1px solid rgba(0,0,0,.3);
 	color:#8b6c5b;
 }
+
+h3.subheading.sansline {
+    border-bottom:none;
+    margin-bottom:0;
+}
 h3.subheading.external{
 	font-family:'Maven Pro', Helvetica, Arial, sans-serif !important;
 	font-weight:400;
