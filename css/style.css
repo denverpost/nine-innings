@@ -142,6 +142,10 @@ body {
     background-image:url('../img/inning-six-header.jpg');
     background-position:center top;
 }
+#part7intro {
+    background-image:url('../img/inning-seven-header.jpg');
+    background-position:center top;
+}
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
     z-index:99;
@@ -636,6 +640,21 @@ section.inset.left {
     font-size:.9em;
     line-height:1.4;
 }
+div.inset.left {
+    background:#f8f8f8;
+    padding:0 2em 2em;
+    margin:.5em 2em .5em -15%;
+    width: 60%;
+    font-size:.9em;
+    line-height:1.4;
+}
+div.inset.left img {
+    margin-top:2em;
+}
+div.inset.left .caption {
+    padding-left:0;
+}
+
 section.inset .twinphoto {
     margin:4em 0;
 }
@@ -1214,6 +1233,11 @@ a.startVideo:hover {
     width:50%;
     background-position:top right;
 }
+#teaserphoto7{
+    background-image:url('../img/inning-seven-stretch-001.jpg');
+    width:50%;
+    background-position:bottom center;
+}
 .closer div#next-inning-teaser {
     position: absolute;
     bottom: 0;
@@ -1516,6 +1540,11 @@ div#footer-bar ul li{
      .row.hideit{
         display:block;
     }
+
+    div.inset.left {
+        margin:1.5em 15%;
+        width:70%;
+    }
 }
 
 /** ---------------------------------------------- 480 ---------------------------------------------- **/
@@ -1607,6 +1636,10 @@ div#footer-bar ul li{
     .back.homeruns th,
     .back.homeruns td{
        font-size:.8em;
+    }
+    div.inset.left {
+        margin:1.5em 5%;
+        width:90%;
     }
 
 }
