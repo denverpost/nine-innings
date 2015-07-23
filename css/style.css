@@ -297,6 +297,9 @@ div#name2 h2 {
 	-moz-bottom-right-radius: 8px;
 	-webkit-bottom-right-radius: 8px;
 }
+.flag-header.wider {
+    width: 94px;
+}
 .flag-header h3 {
 	margin: 0;
 	font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
