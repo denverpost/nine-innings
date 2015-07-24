@@ -111,7 +111,6 @@ body {
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-    background-attachment: absolute;
     height: 77%;
     width: 100%;
     overflow: hidden;
@@ -420,7 +419,7 @@ p.lead .dateline {
 }
 
 h6.quoteout {
-  	text-indent:none;
+  	text-indent:0;
 	width:100%;
 	margin:0 auto;
 	font-family: 'Oldenburg', Georgia, Times, 'Times New Roman', serif !important;
@@ -814,10 +813,10 @@ section.inset.right.modalload .centerphoto {
     -webkit-background-repeat:no-repeat;
     -moz-background-repeat:no-repeat;
     -o-background-repeat:no-repeat;
-    background-postion:center;
-    -webkit-background-postion:center;
-    -moz-background-postion:center;
-    -o-background-postion:center;
+    background-postion:center center;
+    -webkit-background-postion:center center;
+    -moz-background-postion:center center;
+    -o-background-postion:center center;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -1532,7 +1531,6 @@ div#footer-bar ul li{
     }
 }
 
-}
 /** ---------------------------------------------- 640 ---------------------------------------------- **/
 @media only screen and (max-width: 640px) {
 
@@ -1542,24 +1540,21 @@ div#footer-bar ul li{
     .inset-video-right {
          padding-right:15%;
     }
-
-    #highlight-chart .subheading2{
+    #highlight-chart .subheading2 {
         font-size:1.25em;
     }
-    #highlight-chart img{
+    #highlight-chart img {
         margin-top:2em;
         width:45%;
     }
-     .row.hideit{
+     .row.hideit {
         display:block;
     }
-
     div.inset.left {
         margin:1.5em 15%;
         width:70%;
     }
-    div#name1,
-    div#name2 {
+    div#name1, div#name2 {
         width:80%;
     }
 }
