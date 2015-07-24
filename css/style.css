@@ -1041,17 +1041,17 @@ span.photog {
     top:0;
     right:0;
 	background:rgba(255,255,255,1.0);
-    background-image:url(../img/nextButton2.svg);
+    background-image:url(../img/nextButton.svg);
 	background-repeat:no-repeat;
-	background-position:50% 50%;
-	background-size:20%;
+	background-position:82% 50%;
+	background-size:22%;
 	height:100%;
     width:15%;
     text-align:left;
     outline:none;
 	z-index:1;
 	background-color:transparent;
-	opacity:0.35;
+	opacity:0.65;
 }
 /* previous button */
 .centergallery button.slick-prev {
@@ -1059,17 +1059,17 @@ span.photog {
     top:0;
     left:0;
     background:rgba(255,255,255,1.0);
-    background-image:url(../img/previousButton2.svg);
+    background-image:url(../img/previousButton.svg);
 	background-repeat:no-repeat;
-	background-position:50% 50%;
-	background-size:20%;
+	background-position:18% 50%;
+	background-size:22%;
 	height:100%;
     width:15%;
     text-align:right;	
 	outline:none;
 	z-index:1;
 	background-color:transparent;
-	opacity:0.35;
+	opacity:0.65;
 }
 .centergallery button.slick-next:hover, .centergallery button.slick-prev:hover {
    opacity:1;
@@ -1372,6 +1372,18 @@ div#footer-bar ul li{
     }
 }
 
+/** ---------------------------------------------- 900 ---------------------------------------------- **/
+@media only screen and (max-width: 900px) {
+    .centergallery button.slick-next {
+         background-size:26%;
+         background-position: 78% 50%;
+       }
+    .centergallery button.slick-prev {
+        background-size:26%;
+        background-position: 22% 50%;
+    }
+}
+
 /** ---------------------------------------------- 768 ---------------------------------------------- **/
 
 @media only screen and (max-width: 768px) {
@@ -1450,18 +1462,9 @@ div#footer-bar ul li{
 	.tiptonext img{
 		height:16px;
    	}
-	.centergallery button.slick-next {
-   		background-image:url(../img/nextButton3.svg);
-		background-position:80% center;
-		background-size:30%;
-    	width:22%;
-  	}
-	.centergallery button.slick-prev {
-   		background-image:url(../img/previousButton3.svg);  		
-		background-position:20% center;
-		background-size:30%;
-    	width:22%;
-	}
+	.centergalley{
+        margin:0;
+    }
 	.vid-embed-play {
      	height:2em;
     	width:3em;
@@ -1519,7 +1522,14 @@ div#footer-bar ul li{
         width:100%;
     }
     #teaserphoto6{
-    background-position:top center;
+        background-position:top center;
+    }
+    .centergallery button.slick-next {
+         background-size:30%;
+       }
+    .centergallery button.slick-prev {
+        background-size:30%;
+    }
 }
 
 }
