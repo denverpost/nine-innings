@@ -147,7 +147,7 @@ body {
 }
 #part8intro {
     background-image:url('../img/inning-eight-header.jpg');
-    background-position:right bottom;
+    background-position:center 60%;
 }
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
