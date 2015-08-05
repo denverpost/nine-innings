@@ -149,6 +149,10 @@ body {
     background-image:url('../img/inning-eight-header.jpg');
     background-position:left bottom;
 }
+#part9intro {
+    background-image:url('../img/inning-nine-banner3.jpg');
+    background-position:85% 15%;
+}
 /* ----------------------------- Nav Bar ----------------------------- */ 
 nav.top-bar {
     z-index:99;
@@ -1245,6 +1249,11 @@ a.startVideo:hover {
 }
 #teaserphoto8{
     background-image:url('../img/inning-eight-001.jpg');
+    width:50%;
+    background-position:center center;
+}
+#teaserphoto9{
+    background-image:url('../img/inning-nine-001.jpg');
     width:50%;
     background-position:center center;
 }
