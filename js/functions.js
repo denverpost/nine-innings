@@ -118,12 +118,26 @@ function toggleSidebar(toShow,toHide) {
     scrollDownTo(toShow);
 }
 
-function playerCreator(embedId, playerId, divId) {
+function playerCreator(embedId, playerId, divId, doDarkBack) {
+    doDarkBack = typeof doDarkBack !== 'undefined' ? doDarkBack : false;
     divId = typeof divId !== 'undefined' ? divId : false;
     if (divId) {
         $(divId).animate({backgroundColor:'rgba(0,70,70,0.3)',paddingLeft:'.5em',paddingRight:'.5em'}, 350).delay(2000).animate({backgroundColor:'transparent',paddingLeft:'0',paddingRight:'0'},1000);
     }
-    OO.Player.create(embedId, playerId, {'autoplay':true});
+    if (embedId == 'video1') {
+        darkBackground('#overviewvid',false);
+        scrollDownTo('#overviewvid');
+        vidBack = false;
+    }
+    $('#' + embedId).html('<iframe src="http://launch.newsinc.com/?type=VideoPlayer/Single&widgetId=1&trackingGroup=90115&siteSection=denverpost_spl_fea_sty&videoId=' + playerId + '" class="informvideo" noscroll style="width:100%; height:100%;" frameborder="no" scrolling="no" noresize></iframe>');
+    /*
+    OO.Player.create(embedId, playerId, {
+        'autoplay':true,
+        onCreate: function(player) {
+            currentPlayer = player;
+        }
+    });
+    */
 }
 
 function playerScroller(embedId, playerId, divId) {
